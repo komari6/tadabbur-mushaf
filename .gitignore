@@ -1,0 +1,8 @@
+# حماية مضاعفة: لو نُسخ أي من هذه إلى المجلد سهوًا فلن يُرفع
+*.jks
+*.keystore
+keystore.properties
+*.aab
+*.apk
+*.sqlite
+*.db
