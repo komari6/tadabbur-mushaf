@@ -11,8 +11,8 @@
 
 ## الروابط بعد تفعيل Pages
 
-- الموقع: `https://<اسم-المستخدم>.github.io/tadabbur-mushaf/`
-- سياسة الخصوصية: `https://<اسم-المستخدم>.github.io/tadabbur-mushaf/privacy.html`
+- الموقع: `https://komari6.github.io/tadabbur-mushaf/`
+- سياسة الخصوصية: `https://komari6.github.io/tadabbur-mushaf/privacy.html`
 
 ## ⚠️ لا يُرفع إلى هنا أبدًا
 
