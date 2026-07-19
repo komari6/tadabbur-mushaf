@@ -33,14 +33,24 @@
   .links{display:flex;gap:14px;flex-wrap:wrap;justify-content:center;margin-top:18px}
   .links a{background:#fff;border:1px solid var(--line);border-radius:10px;
     padding:10px 18px;text-decoration:none;font-weight:600}
+  /* القسم الإنجليزي: اتجاهه من لغته لا من الصفحة — نفس قاعدة التطبيق */
+  .en{direction:ltr;text-align:left}
+  .en ul{padding-inline-start:20px}
+  .switch{margin-top:14px}
+  .switch a{color:#fff;border:1px solid rgba(255,255,255,.45);border-radius:9px;
+    padding:7px 16px;text-decoration:none;font-weight:600;font-size:.92rem;
+    display:inline-block;direction:ltr}
+  .divider{border:0;border-top:1px solid var(--line);margin:38px 0 4px}
+  .muted{color:var(--muted);font-size:.9rem}
 </style>
 </head>
 <body>
 
-<header>
+<header id="top">
   <img src="icon.png" alt="مصحف التدبّر">
   <h1>مصحف التدبّر</h1>
   <p>مصحف للقراءة والتدبّر — يعمل دون إنترنت</p>
+  <div class="switch"><a href="#english">English</a></div>
 </header>
 
 <main class="wrap">
@@ -82,7 +92,7 @@
       كل مصدر مستعمل في التطبيق مذكور داخله في شاشة «المصادر والتراخيص» مع رخصته وأصحاب حقوقه،
       ومنها: النص القرآني وصور الصفحات، والتفاسير، والترجمات منسوبةً إلى مترجميها بالاسم،
       وأحكام التجويد، وجذور الكلمات من
-      <a href="http://corpus.quran.com">الكوربوس القرآني</a>، وخط أميري برخصة SIL OFL.
+      <a href="https://corpus.quran.com">الكوربوس القرآني</a>، وخط أميري برخصة SIL OFL.
     </p>
     <p>
       التطبيق <strong>مجاني، بلا إعلانات وبلا أي دخل</strong>، لأغراض تعليمية دعويّة.
@@ -92,6 +102,65 @@
   <div class="links">
     <a href="privacy.html">سياسة الخصوصية</a>
     <a href="mailto:alomari.un@gmail.com">الدعم والتواصل</a>
+  </div>
+
+  <hr class="divider">
+
+  <!-- ─────────── English ─────────── -->
+
+  <section class="en" dir="ltr" id="english">
+    <h2>What it offers</h2>
+    <ul>
+      <li><strong>The full Quran</strong> (Hafs), with Madani Mushaf page images (604 pages), plus juz, hizb and rub markers.</li>
+      <li><strong>Three tafsirs</strong>, one tap on any verse: Al-Muyassar, Ibn Kathir, As-Saadi.</li>
+      <li><strong>Tajweed rules coloured</strong> in the verse text (17 rules), with a screen explaining each rule and showing its occurrences.</li>
+      <li><strong>Word meanings</strong> in Arabic, word-by-word translation, and translations in six languages.</li>
+      <li><strong>Search that understands Arabic</strong>: modern or Uthmani spelling, and by root, with word statistics.</li>
+      <li><strong>Recitations</strong> from 133 reciters, with follow-along highlighting and resume where you stopped.</li>
+      <li><strong>46 Quran stories</strong>, a khatmah plan, and a place to write your own reflections.</li>
+    </ul>
+    <p class="muted">The Quranic text, the tafsirs and the stories are in Arabic; the interface itself is available in
+      both Arabic and English.</p>
+  </section>
+
+  <section class="en" dir="ltr">
+    <h2>Your privacy</h2>
+    <p class="note">
+      No accounts, no sign-in, no tracking, no ads.
+      Your reflections, tags and reading position stay <strong>on your device only</strong> and are never sent to any server.
+      The internet is used solely to stream audio recitations, and only when you choose to play them.
+    </p>
+  </section>
+
+  <section class="en" dir="ltr">
+    <h2>What the app does not do</h2>
+    <p>
+      The app <strong>points you to sources; it does not issue rulings</strong>. It never composes words over the
+      sacred text, and it refers questions of fiqh to qualified scholars. The stories are introductory summaries —
+      the verses and their tafsir remain the authority. And tajweed colouring is an aid to accuracy, not a substitute
+      for learning recitation face to face from a qualified teacher.
+    </p>
+  </section>
+
+  <section class="en" dir="ltr">
+    <h2>Sources &amp; licenses</h2>
+    <p>
+      Every source used in the app is credited inside it, on the “Sources &amp; Licenses” screen, together with its
+      license and rights holders — including the Quranic text and page images, the tafsirs, the translations
+      (each attributed to its translator by name), the tajweed markup, word roots from the
+      <a href="https://corpus.quran.com">Quranic Arabic Corpus</a>, and the Amiri font under the SIL OFL.
+    </p>
+    <p>
+      The app is <strong>free, with no ads and no revenue of any kind</strong>, and is intended for educational use.
+    </p>
+  </section>
+
+  <!-- dir=ltr على الصفّ نفسه: هو خارج القسم الإنجليزي فكان يرث اتجاه الصفحة،
+       فينقلب ترتيب الروابط على قارئ الإنجليزية -->
+  <div class="links" dir="ltr">
+    <a href="privacy.html">Privacy Policy</a>
+    <a href="mailto:alomari.un@gmail.com">Support &amp; contact</a>
+    <a href="#top" dir="rtl">العربية</a>
   </div>
 
 </main>
