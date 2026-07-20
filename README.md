@@ -9,15 +9,18 @@
 | `privacy.html` | **سياسة الخصوصية** — الرابط المطلوب في Play Console |
 | `icon.png` | أيقونة التطبيق |
 
-## الروابط بعد تفعيل Pages
+## الروابط (Pages مُفعَّل ويعمل)
 
-- الموقع: `https://komari6.github.io/tadabbur-mushaf/`
-- سياسة الخصوصية: `https://komari6.github.io/tadabbur-mushaf/privacy.html`
+- الموقع: <https://komari6.github.io/tadabbur-mushaf/>
+- سياسة الخصوصية: <https://komari6.github.io/tadabbur-mushaf/privacy.html>
+  — وهو الرابط المُدخَل في Play Console.
 
 ## ⚠️ لا يُرفع إلى هنا أبدًا
 
-- `upload-keystore.jks` و`keystore.properties` — **فقدانهما أو تسريبهما كارثة**:
-  التسريب يمكّن غيرك من توقيع تحديثات باسمك، والفقد يمنعك من التحديث نهائيًا.
+- `upload-keystore.jks` و`keystore.properties` — **تسريبهما يمكّن غيرك من توقيع رفعٍ
+  باسمك**، ولا رجعة عمّا رُفع. أمّا الفقد فليس نهائيًّا: بعد تفعيل Play App Signing
+  يصير هذا مفتاح **رفع** لا مفتاح التوقيع النهائي، فيمكن طلب إعادة تعيينه من Play —
+  لكنها تأخذ أيامًا تتعطّل فيها التحديثات.
 - `database.sqlite` (١٦٨م) وصور الصفحات و`.aab`/`.apk` — تتجاوز حدّ GitHub (١٠٠م للملف)،
   ولا حاجة لها هنا.
 
