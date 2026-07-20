@@ -24,4 +24,4 @@
 - `database.sqlite` (١٦٨م) وصور الصفحات و`.aab`/`.apk` — تتجاوز حدّ GitHub (١٠٠م للملف)،
   ولا حاجة لها هنا.
 
-التواصل: alomari.un@gmail.com
+التواصل: alomari.gp@gmail.com
