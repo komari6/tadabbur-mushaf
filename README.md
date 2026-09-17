@@ -15,13 +15,12 @@
 - سياسة الخصوصية: <https://komari6.github.io/tadabbur-mushaf/privacy.html>
   — وهو الرابط المُدخَل في Play Console.
 
-## ⚠️ لا يُرفع إلى هنا أبدًا
+## English
 
-- `upload-keystore.jks` و`keystore.properties` — **تسريبهما يمكّن غيرك من توقيع رفعٍ
-  باسمك**، ولا رجعة عمّا رُفع. أمّا الفقد فليس نهائيًّا: بعد تفعيل Play App Signing
-  يصير هذا مفتاح **رفع** لا مفتاح التوقيع النهائي، فيمكن طلب إعادة تعيينه من Play —
-  لكنها تأخذ أيامًا تتعطّل فيها التحديثات.
-- `database.sqlite` (١٦٨م) وصور الصفحات و`.aab`/`.apk` — تتجاوز حدّ GitHub (١٠٠م للملف)،
-  ولا حاجة لها هنا.
+This repository hosts the public page and privacy policy of **Tadabbur Mus-haf**, a free,
+ad-free Quran app that works offline. The app's code and data are not published here.
+
+- Website: <https://komari6.github.io/tadabbur-mushaf/>
+- Privacy policy: <https://komari6.github.io/tadabbur-mushaf/privacy.html>
 
 التواصل: alomari.gp@gmail.com
